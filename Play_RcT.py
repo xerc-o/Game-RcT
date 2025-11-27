@@ -144,7 +144,7 @@ def start_game_from_menu():
 # ---------- Menu drawing + preview ----------
 def draw_menu():
     screen.fill((18, 24, 32))
-    title = FONT_BIG.render("Pilih Gambar Karakter", True, (220,220,220))
+    title = FONT_BIG.render("Pilih Gambar Karaktermu", True, (220,220,220))
     screen.blit(title, (200, 30))
 
     # Tombol Player image
